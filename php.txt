@@ -1,0 +1,7 @@
+<div class="pagination clearfix blog-pagination">
+    <?php echo paginate_links( array (
+        'next_text' => '<i class="fas fa-long-arrow-alt-right"></i>',
+        'prev_text' => '<i class="fas fa-long-arrow-alt-left"></i>',
+    ) ); ?>
+
+</div>
